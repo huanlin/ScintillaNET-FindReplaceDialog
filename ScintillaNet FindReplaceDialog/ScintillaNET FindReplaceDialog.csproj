@@ -86,12 +86,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Content Include="StringConstants.en-US.txt" />
+    <Compile Include="StringConstants.zh-TW.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FindAllResults\FindAllResultsPanel.resx">
       <DependentUpon>FindAllResultsPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FindReplace\FindReplaceDialog.resx">
+      <DependentUpon>FindReplaceDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindReplace\FindReplaceDialog.zh-Hant.resx">
       <DependentUpon>FindReplaceDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FindReplace\IncrementalSearcher.resx">

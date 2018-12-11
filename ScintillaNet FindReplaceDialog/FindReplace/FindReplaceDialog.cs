@@ -299,20 +299,20 @@ namespace ScintillaNET_FindReplaceDialog
             }
             catch (ArgumentException ex)
             {
-                lblStatus.Text = "Error in Regular Expression: " + ex.Message;
+                lblStatus.Text = StringConstants.ErrorInRegularExpression + ex.Message;
                 return;
             }
 
             if (nextRange.cpMin == nextRange.cpMax)
             {
-                lblStatus.Text = "Match could not be found";
+                lblStatus.Text = StringConstants.MatchNotFound;
             }
             else
             {
                 if (nextRange.cpMin > _scintilla.AnchorPosition)
                 {
                     if (chkSearchSelectionR.Checked)
-                        lblStatus.Text = "Search match wrapped to the beginning of the selection";
+                        lblStatus.Text =  "Search match wrapped to the beginning of the selection";
                     else
                         lblStatus.Text = "Search match wrapped to the beginning of the document";
                 }
@@ -365,7 +365,7 @@ namespace ScintillaNET_FindReplaceDialog
                 newItem.Tag = item;
             }
             mnuRecentFindF.Items.Add("-");
-            mnuRecentFindF.Items.Add("Clear History");
+            mnuRecentFindF.Items.Add(StringConstants.ClearHistory);
             mnuRecentFindF.Show(cmdRecentFindF.PointToScreen(cmdRecentFindF.ClientRectangle.Location));
         }
 
@@ -378,7 +378,7 @@ namespace ScintillaNET_FindReplaceDialog
                 newItem.Tag = item;
             }
             mnuRecentFindR.Items.Add("-");
-            mnuRecentFindR.Items.Add("Clear History");
+            mnuRecentFindR.Items.Add(StringConstants.ClearHistory);
             mnuRecentFindR.Show(cmdRecentFindR.PointToScreen(cmdRecentFindR.ClientRectangle.Location));
         }
 
@@ -391,7 +391,7 @@ namespace ScintillaNET_FindReplaceDialog
                 newItem.Tag = item;
             }
             mnuRecentReplace.Items.Add("-");
-            mnuRecentReplace.Items.Add("Clear History");
+            mnuRecentReplace.Items.Add(StringConstants.ClearHistory);
             mnuRecentReplace.Show(cmdRecentReplace.PointToScreen(cmdRecentReplace.ClientRectangle.Location));
         }
 
@@ -532,13 +532,13 @@ namespace ScintillaNET_FindReplaceDialog
             }
             catch (ArgumentException ex)
             {
-                lblStatus.Text = "Error in Regular Expression: " + ex.Message;
+                lblStatus.Text = StringConstants.ErrorInRegularExpression + ex.Message;
                 return;
             }
 
             if (foundRange.cpMin == foundRange.cpMax)
             {
-                lblStatus.Text = "Match could not be found";
+                lblStatus.Text = StringConstants.MatchNotFound;
             }
             else
             {
@@ -571,13 +571,13 @@ namespace ScintillaNET_FindReplaceDialog
             }
             catch (ArgumentException ex)
             {
-                lblStatus.Text = "Error in Regular Expression: " + ex.Message;
+                lblStatus.Text = StringConstants.ErrorInRegularExpression + ex.Message;
                 return;
             }
 
             if (foundRange.cpMin == foundRange.cpMax)
             {
-                lblStatus.Text = "Match could not be found";
+                lblStatus.Text = StringConstants.MatchNotFound;
             }
             else
             {
@@ -750,13 +750,13 @@ namespace ScintillaNET_FindReplaceDialog
             }
             catch (ArgumentException ex)
             {
-                lblStatus.Text = "Error in Regular Expression: " + ex.Message;
+                lblStatus.Text = StringConstants.ErrorInRegularExpression + ex.Message;
                 return;
             }
 
             if (nextRange.cpMin == nextRange.cpMax)
             {
-                lblStatus.Text = "Match could not be found";
+                lblStatus.Text = StringConstants.MatchNotFound;
             }
             else
             {
