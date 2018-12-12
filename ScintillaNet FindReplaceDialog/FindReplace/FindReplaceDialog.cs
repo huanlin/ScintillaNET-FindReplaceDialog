@@ -107,6 +107,18 @@ namespace ScintillaNET_FindReplaceDialog
 
         public FindReplace FindReplace { get; set; }
 
+        public bool ShowMarkAtMatchedLine
+        {
+            get { return chkMarkLine.Checked; }
+            set { chkMarkLine.Checked = value; }
+        }
+
+        public bool HighlightMatches
+        {
+            get { return chkHighlightMatches.Checked; }
+            set { chkHighlightMatches.Checked = value; }
+        }
+
         #endregion Properties
 
         #region Form Event Handlers
