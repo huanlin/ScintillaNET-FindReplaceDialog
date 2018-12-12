@@ -206,8 +206,14 @@
   <data name="chkSearchSelectionF.Location" type="System.Drawing.Point, System.Drawing">
     <value>393, 47</value>
   </data>
+  <data name="chkSearchSelectionF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
   <data name="chkSearchSelectionF.Text" xml:space="preserve">
-    <value>僅搜尋選取範圍</value>
+    <value>搜尋選取範圍</value>
+  </data>
+  <data name="chkSearchSelectionF.ToolTip" xml:space="preserve">
+    <value>僅搜尋選取範圍的文字</value>
   </data>
   <data name="chkWrapF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -219,7 +225,10 @@
     <value>86, 22</value>
   </data>
   <data name="chkWrapF.Text" xml:space="preserve">
-    <value>換行(&amp;W)</value>
+    <value>循環(&amp;W)</value>
+  </data>
+  <data name="chkWrapF.ToolTip" xml:space="preserve">
+    <value>碰到文件結尾時再從頭尋找</value>
   </data>
   <data name="btnFindNextF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
