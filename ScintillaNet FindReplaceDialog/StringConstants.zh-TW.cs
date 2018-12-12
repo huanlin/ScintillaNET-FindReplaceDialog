@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ScintillaNET_FindReplaceDialog
+namespace ScintillaNET.FindReplaceTools
 {
     public static class StringConstants
     {

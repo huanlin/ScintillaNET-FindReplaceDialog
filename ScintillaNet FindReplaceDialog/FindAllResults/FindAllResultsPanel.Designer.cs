@@ -1,4 +1,4 @@
-﻿namespace ScintillaNET_FindReplaceDialog.FindAllResults
+﻿namespace ScintillaNET.FindReplaceTools.FindAllResults
 {
     partial class FindAllResultsPanel
     {

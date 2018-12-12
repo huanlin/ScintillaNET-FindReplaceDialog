@@ -1,4 +1,4 @@
-﻿namespace ScintillaNET_FindReplaceDialog.FindAllResults
+﻿namespace ScintillaNET.FindReplaceTools.FindAllResults
 {
     using System;
     using System.Collections.Generic;
@@ -15,7 +15,7 @@
     {
         #region Fields
 
-        private List<ScintillaNET_FindReplaceDialog.CharacterRange> _findAllResults;
+        private List<ScintillaNET.FindReplaceTools.CharacterRange> _findAllResults;
         private Scintilla _scintilla;
 
         #endregion Fields
@@ -58,14 +58,14 @@
         /// </summary>
         /// <param name="FindReplace">The FindReplace instance used to generate the find results.</param>
         /// <param name="FindAllResults"></param>
-        public void UpdateFindAllResults(FindReplace FindReplace, List<ScintillaNET_FindReplaceDialog.CharacterRange> FindAllResults)
+        public void UpdateFindAllResults(FindReplace FindReplace, List<ScintillaNET.FindReplaceTools.CharacterRange> FindAllResults)
         {
             if (FindReplace.Scintilla == null)
                 return;
             else
                 Scintilla = FindReplace.Scintilla;
 
-            _findAllResults = new List<ScintillaNET_FindReplaceDialog.CharacterRange>(FindAllResults);
+            _findAllResults = new List<ScintillaNET.FindReplaceTools.CharacterRange>(FindAllResults);
 
             FindResultsScintilla.ClearAll();
 
@@ -122,7 +122,7 @@
 
             if (_findAllResults.Count > selectedLine)
             {
-                ScintillaNET_FindReplaceDialog.CharacterRange CharRange = _findAllResults[selectedLine];
+                ScintillaNET.FindReplaceTools.CharacterRange CharRange = _findAllResults[selectedLine];
                 Scintilla.SetSelection(CharRange.cpMin, CharRange.cpMax);
                 Scintilla.ScrollCaret();
             }
@@ -136,7 +136,7 @@
 
             int selectedLine = FindResultsScintilla.LineFromPosition(pos);
 
-            ScintillaNET_FindReplaceDialog.CharacterRange CharRange = _findAllResults[selectedLine];
+            ScintillaNET.FindReplaceTools.CharacterRange CharRange = _findAllResults[selectedLine];
             Scintilla.SetSelection(CharRange.cpMin, CharRange.cpMax);
             Scintilla.ScrollCaret();
         }
@@ -149,7 +149,7 @@
 
             int selectedLine = FindResultsScintilla.LineFromPosition(pos);
 
-            ScintillaNET_FindReplaceDialog.CharacterRange CharRange = _findAllResults[selectedLine];
+            ScintillaNET.FindReplaceTools.CharacterRange CharRange = _findAllResults[selectedLine];
             Scintilla.SetSelection(CharRange.cpMin, CharRange.cpMax);
             Scintilla.ScrollCaret();
             Scintilla.Focus();

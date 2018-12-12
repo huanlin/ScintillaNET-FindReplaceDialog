@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 #endregion Using Directives
 
 
-namespace ScintillaNET_FindReplaceDialog
+namespace ScintillaNET.FindReplaceTools
 {
     /// <summary>
     /// Specifies a range of characters. If the cpMin and cpMax members are equal, the range is empty.

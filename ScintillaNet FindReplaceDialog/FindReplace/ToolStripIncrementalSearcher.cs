@@ -1,14 +1,14 @@
 #region Using Directives
 
 using ScintillaNET;
-using ScintillaNET_FindReplaceDialog;
+using ScintillaNET.FindReplaceTools;
 using System;
 using System.Windows.Forms;
 
 #endregion Using Directives
 
 
-namespace ScintillaNET_FindReplaceDialog
+namespace ScintillaNET.FindReplaceTools
 {
     public class ToolStripIncrementalSearcher : ToolStripControlHost
     {

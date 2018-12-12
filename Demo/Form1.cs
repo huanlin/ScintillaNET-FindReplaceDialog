@@ -1,6 +1,4 @@
-﻿using ScintillaNET;
-using ScintillaNET_FindReplaceDialog;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ScintillaNET;
+using ScintillaNET.FindReplaceTools;
 
 namespace Demo
 {

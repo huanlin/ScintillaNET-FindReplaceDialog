@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{CFD9151B-59C7-44A7-A93A-22EC9385738D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScintillaNET FindReplaceDialog", "ScintillaNet FindReplaceDialog\ScintillaNET FindReplaceDialog.csproj", "{548FD833-9A3B-41BB-9850-570AFE9A91B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScintillaNET.FindReplaceTools", "ScintillaNet FindReplaceDialog\ScintillaNET.FindReplaceTools.csproj", "{548FD833-9A3B-41BB-9850-570AFE9A91B7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.Packager", "NuGet.Packager\NuGet.Packager.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -33,5 +33,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD675676-2EF0-41AB-BDBA-D853634529C7}
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,4 @@
-namespace ScintillaNET_FindReplaceDialog
+namespace ScintillaNET.FindReplaceTools
 {
 	partial class FindReplaceDialog
 	{
@@ -233,7 +233,7 @@ namespace ScintillaNET_FindReplaceDialog
             // cmdRecentFindF
             // 
             resources.ApplyResources(this.cmdRecentFindF, "cmdRecentFindF");
-            this.cmdRecentFindF.BackgroundImage = global::ScintillaNET_FindReplaceDialog.Properties.Resources.Clock;
+            this.cmdRecentFindF.BackgroundImage = global::ScintillaNET.FindReplaceTools.Properties.Resources.Clock;
             this.cmdRecentFindF.Name = "cmdRecentFindF";
             this.toolTip1.SetToolTip(this.cmdRecentFindF, resources.GetString("cmdRecentFindF.ToolTip"));
             this.cmdRecentFindF.UseVisualStyleBackColor = true;
@@ -759,7 +759,7 @@ namespace ScintillaNET_FindReplaceDialog
             // cmdRecentReplace
             // 
             resources.ApplyResources(this.cmdRecentReplace, "cmdRecentReplace");
-            this.cmdRecentReplace.BackgroundImage = global::ScintillaNET_FindReplaceDialog.Properties.Resources.Clock;
+            this.cmdRecentReplace.BackgroundImage = global::ScintillaNET.FindReplaceTools.Properties.Resources.Clock;
             this.cmdRecentReplace.Name = "cmdRecentReplace";
             this.toolTip1.SetToolTip(this.cmdRecentReplace, resources.GetString("cmdRecentReplace.ToolTip"));
             this.cmdRecentReplace.UseVisualStyleBackColor = true;
@@ -768,7 +768,7 @@ namespace ScintillaNET_FindReplaceDialog
             // cmdRecentFindR
             // 
             resources.ApplyResources(this.cmdRecentFindR, "cmdRecentFindR");
-            this.cmdRecentFindR.BackgroundImage = global::ScintillaNET_FindReplaceDialog.Properties.Resources.Clock;
+            this.cmdRecentFindR.BackgroundImage = global::ScintillaNET.FindReplaceTools.Properties.Resources.Clock;
             this.cmdRecentFindR.Name = "cmdRecentFindR";
             this.toolTip1.SetToolTip(this.cmdRecentFindR, resources.GetString("cmdRecentFindR.ToolTip"));
             this.cmdRecentFindR.UseVisualStyleBackColor = true;
