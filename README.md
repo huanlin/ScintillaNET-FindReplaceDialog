@@ -4,6 +4,12 @@
 
 A ScintillaNET v3 Find &amp; Replace Dialog + Goto Dialog + Incremental Search
 
+---
+
+**Note:** You are looking at a fork of [ScintillaNET-FindReplaceDialog](https://github.com/Stumpii/ScintillaNET-FindReplaceDialog). This fork is started since February 2022 by Michael Tsai. See [CHANGELOG.md](CHANGELOG.md) for more information.
+
+---
+
 # ScintillaNET
 
 [ScintillaNET v3](https://github.com/jacobslusser/ScintillaNET) is a Windows Forms control, wrapper, and bindings for the versatile [Scintilla](http://www.scintilla.org/) source code editing component. It does not contain a Find & Replace dialog often seen in Scintilla based editors (Notepad++, SciTE, etc.).
