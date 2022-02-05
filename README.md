@@ -1,4 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/yudkixav4lhwohmy?svg=true)](https://ci.appveyor.com/project/huanlin/scintillanet-findreplacedialog)
+
 # ScintillaNET-FindReplaceDialog
+
 A ScintillaNET v3 Find &amp; Replace Dialog + Goto Dialog + Incremental Search
 
 # ScintillaNET
