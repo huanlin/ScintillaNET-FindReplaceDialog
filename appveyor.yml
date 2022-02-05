@@ -30,4 +30,4 @@ deploy:
     artifact: /.*(\.|\.s)nupkg/
 
 artifacts:
-- path: Output\**\*.nupkg'
+- path: Output\**\*.nupkg
