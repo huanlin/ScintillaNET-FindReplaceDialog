@@ -120,7 +120,7 @@
             int pos = FindResultsScintilla.CurrentPosition;
             int selectedLine = FindResultsScintilla.LineFromPosition(pos);
 
-            if (_findAllResults.Count > selectedLine)
+            if (_findAllResults?.Count > selectedLine)
             {
                 ScintillaNET_FindReplaceDialog.CharacterRange CharRange = _findAllResults[selectedLine];
                 Scintilla.SetSelection(CharRange.cpMin, CharRange.cpMax);
