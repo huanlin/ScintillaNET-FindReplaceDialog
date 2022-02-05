@@ -5,6 +5,14 @@
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyName>ScintillaNET_FindReplaceDialog</AssemblyName>
     <RootNamespace>ScintillaNET_FindReplaceDialog</RootNamespace>
+    <PackageId>$(AssemblyName)-huanlin</PackageId>
+    <Authors>Steve Towner, Michael Tsai</Authors>
+    <Description>A Find and Replace Dialog + Goto Dialog + Incremental Search for ScintillaNET v3.</Description>
+    <Copyright></Copyright>
+    <RepositoryUrl>https://github.com/huanlin/ScintillaNET-FindReplaceDialog</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/huanlin/ScintillaNET-FindReplaceDialog</PackageProjectUrl>
+    <Nullable>disable</Nullable>
+    <BaseOutputPath>..\Output</BaseOutputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -37,6 +45,10 @@
 
   <ItemGroup>
     <PackageReference Include="fernandreu.ScintillaNET" Version="4.2.0" />
+    <PackageReference Include="MinVer" Version="2.5.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
