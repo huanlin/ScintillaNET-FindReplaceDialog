@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ScintillaNET;
-using ScintillaNET.FindReplaceTools;
+using ScintillaNET_FindReplaceDialog;
 
 namespace Demo
 {

@@ -1,16 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.106
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32127.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{CFD9151B-59C7-44A7-A93A-22EC9385738D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScintillaNET_FindReplaceDialog", "ScintillaNET_FindReplaceDialog\ScintillaNET_FindReplaceDialog.csproj", "{99555D4B-6838-4E33-8A78-6547DE067366}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScintillaNET.FindReplaceTools", "ScintillaNet FindReplaceDialog\ScintillaNET.FindReplaceTools.csproj", "{548FD833-9A3B-41BB-9850-570AFE9A91B7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.Packager", "NuGet.Packager\NuGet.Packager.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
-	ProjectSection(ProjectDependencies) = postProject
-		{548FD833-9A3B-41BB-9850-570AFE9A91B7} = {548FD833-9A3B-41BB-9850-570AFE9A91B7}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{F46D207E-671B-407C-8CB2-C9EC8E1EFA0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,18 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CFD9151B-59C7-44A7-A93A-22EC9385738D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFD9151B-59C7-44A7-A93A-22EC9385738D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFD9151B-59C7-44A7-A93A-22EC9385738D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFD9151B-59C7-44A7-A93A-22EC9385738D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{548FD833-9A3B-41BB-9850-570AFE9A91B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{548FD833-9A3B-41BB-9850-570AFE9A91B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{548FD833-9A3B-41BB-9850-570AFE9A91B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{548FD833-9A3B-41BB-9850-570AFE9A91B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{99555D4B-6838-4E33-8A78-6547DE067366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99555D4B-6838-4E33-8A78-6547DE067366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99555D4B-6838-4E33-8A78-6547DE067366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99555D4B-6838-4E33-8A78-6547DE067366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F46D207E-671B-407C-8CB2-C9EC8E1EFA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46D207E-671B-407C-8CB2-C9EC8E1EFA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F46D207E-671B-407C-8CB2-C9EC8E1EFA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F46D207E-671B-407C-8CB2-C9EC8E1EFA0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

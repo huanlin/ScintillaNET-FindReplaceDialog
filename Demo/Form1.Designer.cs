@@ -36,8 +36,8 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.scintilla2 = new ScintillaNET.Scintilla();
-            this.findAllResultsPanel1 = new ScintillaNET.FindReplaceTools.FindAllResults.FindAllResultsPanel();
-            this.incrementalSearcher1 = new ScintillaNET.FindReplaceTools.IncrementalSearcher();
+            this.findAllResultsPanel1 = new ScintillaNET_FindReplaceDialog.FindAllResults.FindAllResultsPanel();
+            this.incrementalSearcher1 = new ScintillaNET_FindReplaceDialog.IncrementalSearcher();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -185,9 +185,9 @@
 		#endregion
 
 		private ScintillaNET.Scintilla scintilla1;
-        private ScintillaNET.FindReplaceTools.IncrementalSearcher incrementalSearcher1;
+        private ScintillaNET_FindReplaceDialog.IncrementalSearcher incrementalSearcher1;
         private System.Windows.Forms.Button GotoButton;
-        private ScintillaNET.FindReplaceTools.FindAllResults.FindAllResultsPanel findAllResultsPanel1;
+        private ScintillaNET_FindReplaceDialog.FindAllResults.FindAllResultsPanel findAllResultsPanel1;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
