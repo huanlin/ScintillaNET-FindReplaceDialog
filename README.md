@@ -1,4 +1,5 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/yudkixav4lhwohmy?svg=true)](https://ci.appveyor.com/project/huanlin/scintillanet-findreplacedialog)
+[![Build status](https://github.com/huanlin/ScintillaNET-FindReplaceDialog/actions/workflows/build-release.yml/badge.svg)](https://github.com/huanlin/ScintillaNET-FindReplaceDialog/actions/workflows/build-release.yml)
+[![NuGet](https://img.shields.io/nuget/v/ScintillaNET_FindReplaceDialog-huanlin.svg)](https://www.nuget.org/packages/ScintillaNET_FindReplaceDialog-huanlin/)
 
 # ScintillaNET-FindReplaceDialog
 
