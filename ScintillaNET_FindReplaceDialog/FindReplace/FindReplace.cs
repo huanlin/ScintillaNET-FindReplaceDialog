@@ -57,9 +57,10 @@ namespace ScintillaNET_FindReplaceDialog
 
 		public delegate void ReplaceAllResultsEventHandler(object sender, ReplaceResultsEventArgs FindAllResults);
 
-		#region Properties
+        #region Properties
 
-		public Scintilla Scintilla
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public Scintilla Scintilla
 		{
 			get
 			{
@@ -135,7 +136,8 @@ namespace ScintillaNET_FindReplaceDialog
 			}
 		}
 
-		public Indicator Indicator
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public Indicator Indicator
 		{
 			get
 			{
@@ -147,7 +149,8 @@ namespace ScintillaNET_FindReplaceDialog
 			}
 		}
 
-		public Marker Marker
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public Marker Marker
 		{
 			get
 			{
@@ -173,20 +176,20 @@ namespace ScintillaNET_FindReplaceDialog
 			}
 		}
 
-		[Browsable(false)]
-		public bool _lastReplaceHighlight
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public bool _lastReplaceHighlight
 		{
 			get; set;
 		}
 
-		[Browsable(false)]
-		public int _lastReplaceLastLine
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public int _lastReplaceLastLine
 		{
 			get; set;
 		}
 
-		[Browsable(false)]
-		public bool _lastReplaceMark
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public bool _lastReplaceMark
 		{
 			get; set;
 		}

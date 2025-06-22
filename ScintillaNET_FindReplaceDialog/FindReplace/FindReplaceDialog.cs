@@ -3,6 +3,7 @@ namespace ScintillaNET_FindReplaceDialog
     using ScintillaNET;
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel;
     using System.Diagnostics;
     using System.Drawing;
     using System.Text.RegularExpressions;
@@ -49,6 +50,7 @@ namespace ScintillaNET_FindReplaceDialog
         /// selection to prevent obscuring it.
         /// </summary>
         /// <returns>true to automatically move away from the current selection; otherwise, false.</returns>
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool AutoPosition
         {
             get
@@ -61,6 +63,7 @@ namespace ScintillaNET_FindReplaceDialog
             }
         }
 
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public List<string> MruFind
         {
             get
@@ -74,12 +77,14 @@ namespace ScintillaNET_FindReplaceDialog
             }
         }
 
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public int MruMaxCount
         {
             get { return _mruMaxCount; }
             set { _mruMaxCount = value; }
         }
 
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public List<string> MruReplace
         {
             get
@@ -93,6 +98,7 @@ namespace ScintillaNET_FindReplaceDialog
             }
         }
 
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public Scintilla Scintilla
         {
             get
@@ -105,14 +111,17 @@ namespace ScintillaNET_FindReplaceDialog
             }
         }
 
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public FindReplace FindReplace { get; set; }
 
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool ShowMarkAtMatchedLine
         {
             get { return chkMarkLine.Checked; }
             set { chkMarkLine.Checked = value; }
         }
 
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool HighlightMatches
         {
             get { return chkHighlightMatches.Checked; }

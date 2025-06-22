@@ -43,6 +43,7 @@ namespace ScintillaNET_FindReplaceDialog
         /// </summary>
         /// <returns>true to automatically move away from the current selection; otherwise, false.
         /// If ToolItem is enabled, this defaults to false.</returns>
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool AutoPosition
         {
             get
@@ -59,6 +60,7 @@ namespace ScintillaNET_FindReplaceDialog
         }
 
         [EditorBrowsable(EditorBrowsableState.Advanced)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public FindReplace FindReplace
         {
             get
@@ -79,7 +81,7 @@ namespace ScintillaNET_FindReplaceDialog
             }
         }
 
-        [Browsable(false)]
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public Scintilla Scintilla
         {
             get
@@ -92,6 +94,7 @@ namespace ScintillaNET_FindReplaceDialog
             }
         }
 
+        [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool ToolItem
         {
             get { return _toolItem; }
