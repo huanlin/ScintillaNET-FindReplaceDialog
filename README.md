@@ -1,4 +1,4 @@
-[![Build status](https://github.com/huanlin/ScintillaNET-FindReplaceDialog/actions/workflows/build-release.yml/badge.svg)](https://github.com/huanlin/ScintillaNET-FindReplaceDialog/actions/workflows/build-release.yml)
+﻿[![Build status](https://github.com/huanlin/ScintillaNET-FindReplaceDialog/actions/workflows/build-release.yml/badge.svg)](https://github.com/huanlin/ScintillaNET-FindReplaceDialog/actions/workflows/build-release.yml)
 [![NuGet](https://img.shields.io/nuget/v/ScintillaNET_FindReplaceDialog-huanlin.svg)](https://www.nuget.org/packages/ScintillaNET_FindReplaceDialog-huanlin/)
 
 # ScintillaNET-FindReplaceDialog
@@ -7,7 +7,7 @@ A ScintillaNET v3 Find &amp; Replace Dialog + Goto Dialog + Incremental Search
 
 ---
 
-**Note:** You are looking at a fork of [ScintillaNET-FindReplaceDialog](https://github.com/Stumpii/ScintillaNET-FindReplaceDialog). This fork is started since February 2022 by Michael Tsai. See [CHANGELOG.md](CHANGELOG.md) for more information.
+**Note:** This was a fork of [Stumpii/ScintillaNET-FindReplaceDialog](https://github.com/Stumpii/ScintillaNET-FindReplaceDialog). This fork is started since February 2022 by Michael Tsai. Then, it is detached from the original repository on June 2025. See [CHANGELOG.md](CHANGELOG.md) for more information.
 
 ---
 
