@@ -7,7 +7,7 @@ A ScintillaNET v3 Find &amp; Replace Dialog + Goto Dialog + Incremental Search
 
 ---
 
-**Note:** This was a fork of [Stumpii/ScintillaNET-FindReplaceDialog](https://github.com/Stumpii/ScintillaNET-FindReplaceDialog). This fork is started since February 2022 by Michael Tsai. Then, it is detached from the original repository on June 2025. See [CHANGELOG.md](CHANGELOG.md) for more information.
+**Note:** This was a fork of [Stumpii/ScintillaNET-FindReplaceDialog](https://github.com/Stumpii/ScintillaNET-FindReplaceDialog) since February 2022. Then, it is detached from the original repository on June 2025. See [CHANGELOG.md](CHANGELOG.md) for more information.
 
 ---
 
